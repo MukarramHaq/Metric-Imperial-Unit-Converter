@@ -11,23 +11,25 @@
             <div class="upper-container">
                 <h1>Metric/Imperial Unit Conversion</h1>
                 <div class="flex-group">
-                    <div class="number">0</div>
-                    <button>Convert</button>
+                    <div class="number">
+                        <input id="input-el" type="text">
+                    </div>
+                    <button id="convert-btn">Convert</button>
                 </div>
             </div>
             <div class="result-container">
                 <div class="rows">
                     <div class="row-1">
                         <h3>Length (Meter/Feet)</h3>
-                        <p class="length-result"></p>
+                        <p id="length-result" class="length">0 meters = 0 feet | 0 feet = 0 meters</p>
                     </div>
                     <div class="row-2">
                         <h3>Volume (Liters/Gallons)</h3>
-                        <p class="volume-result"></p>
+                        <p id="volume-result" class="volume">0 liters = 0 gallons | 0 gallons = 0 liters</p>
                     </div>
                     <div class="row-3">
                         <h3>Mass (Kilograms/Pounds)</h3>
-                        <p class="mass-result"></p>
+                        <p id="mass-result" class="mass">0 kilos = 0 pounds | 0 pounds = 0 kilos</p>
                     </div>
                 </div>
             </div>

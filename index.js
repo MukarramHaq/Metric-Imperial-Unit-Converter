@@ -9,6 +9,14 @@ convertBtn.addEventListener("click", function(){
     renderResult(inputValue)
 })
 
+inputEl.addEventListener("keydown", function(event) {
+    if (event.key === 'Enter') {
+        let inputValue = inputEl.value;
+        renderResult(inputValue);
+    }
+});
+
+
 function renderResult(inputValue){
     let lengthString = ""
     let volumeString = ""

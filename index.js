@@ -15,7 +15,7 @@ function renderResult(inputValue){
     let massString = ""
     lengthString = `
     
-        ${inputValue} meters = ${metersToFeet(inputValue)} feet | 
+        ${inputValue} meters = ${metersToFeet(inputValue)} feet / 
         ${inputValue} feet = ${feetToMeters(inputValue)} meters
     
     `
@@ -23,7 +23,7 @@ function renderResult(inputValue){
 
     volumeString = `
     
-        ${inputValue} liters = ${litersToGallons(inputValue)} gallons | 
+        ${inputValue} liters = ${litersToGallons(inputValue)} gallons /
         ${inputValue} gallons = ${gallonsToLiters(inputValue)} liters
     
     `
@@ -31,7 +31,7 @@ function renderResult(inputValue){
 
     massString = `
     
-        ${inputValue} kilos = ${kilosToPounds(inputValue)} pounds | 
+        ${inputValue} kilos = ${kilosToPounds(inputValue)} pounds / 
         ${inputValue} pounds = ${poundsToKilos(inputValue)} kilos
     
     `
